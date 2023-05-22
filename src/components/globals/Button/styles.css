@@ -1,0 +1,21 @@
+.btn-4 {
+    padding: 1rem 2rem;
+    color: var(--text-color);
+    /* background: linear-gradient(45deg,#36c5cf, #69007f, #ff4268); */
+    background: var(--second-bg-color) ; 
+    /* background: linear-gradient(102deg, rgb(0, 153, 255) 0%, rgb(204, 0, 255) 100%); */
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    transition: 0.5s;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    
+}
+
+.btn-4:hover{
+  /* background:linear-gradient(45deg,#ff4268, #69007f,#36c5cf); */
+  background: var(--second-components-color) ; 
+  /* background: linear-gradient(102deg, rgb(0, 153, 255) 0%, rgb(204, 0, 255) 100%); */
+  transform: scalex(1.1);
+}
+

@@ -1,0 +1,94 @@
+/*Criando o conteudo do parque*/
+
+.parques {
+    padding: 5rem 5%;
+    background-color: #323946;
+    text-align: center;
+}
+
+.parques h1 {
+    font-size: 4rem;
+    color: #dfdede;
+    margin-bottom: 5rem;
+}
+
+.parques h2 {
+    font-size: 1.4rem;
+    color: #101010;
+}
+
+.parques-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.parques .card-parque {
+    width: 26rem;
+    height: 30rem;
+    background-color: #1f242da6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    transition: 0.3s;
+}
+.parques .card-parque:hover {
+    background-color: #323946;
+}
+
+.parques .card-parque:hover {
+    border-color: #0ef;
+    box-shadow: 0rem 0rem 1rem 0.1rem #0ef,
+    0rem 0rem 0.1rem 0.1rem #0ef;
+    transform: scale(1.02);
+}
+
+.parques .card-parque .icon {
+    color: #0ef;
+    font-size: 4rem;
+    padding: 1rem;
+}
+
+.parques .parques-container .card-parque h1 {
+    color: #dfdede;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.parques-container .card-parque h2 {
+    color: #dfdede;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.parques-container .card-parque p {
+    color: #dfdede;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.parques-container .card-parque button {
+    padding: .8rem 1.6rem;
+    border: 0.2rem solid #0ef;
+    background-color: transparent;
+    color: #dfdede;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.parques-container .card-parque button:hover {
+    color: #dfdede;
+    background-color: royalblue;
+    border: 0.1rem solid royalblue;
+
+}

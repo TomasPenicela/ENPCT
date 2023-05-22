@@ -1,9 +1,16 @@
+
+
+import Document from '../../components/document/document';
+
+
 function Documentos() {
 
+
     return (
-      <div>
-        Pagina de documentos
-      </div>
+      <>
+		<Document />
+	  </>
+
     )
   }
   

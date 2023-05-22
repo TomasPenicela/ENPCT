@@ -1,121 +1,258 @@
-.contact {
+.contact .campo_texto {
+    padding: 3rem 5%;
+    width: 100%;
+    height: 30vh;
+    background-color: #050fcc;
+    display: flex;
+    align-items: center;
+    padding-top: 15rem;
+    box-shadow: 0rem 0rem 0.5rem #dbdee6, 0rem 0rem 0.5rem #858585;
    
 }
 
-.contact .text-container {
-
-    background-color: royalblue;
-    font-size: 2rem;
-    padding: 3rem 5%;
-    box-shadow: 0rem 0rem 0.1rem #1e2b4d, 0rem 0rem 0.5rem #e2e1e1;
+.contact .campo_texto h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
 }
 
-.contact .text-container h1 {
-    text-transform: uppercase;
+.contact h1 {
+    color: #191919;
+    font-size: 4rem;
+    text-align: center;
 }
 
 .contact-container {
     display: flex;
     align-items: center;
-    padding: 7rem 5%;
+    padding: 5rem 5%;
     justify-content: space-around;
 }
 
-.formulario form {
+form {
+    width: 70rem;
+    margin: 5rem auto;
+    max-width: 100%;
+    border-radius: 0.4rem;
+    padding: 3rem 3%;
+}
+
+
+form .half {
+    display: flex;
+    justify-content: space-between;
+}
+
+form .half .item {
     display: flex;
     flex-direction: column;
+    margin-bottom: 2.4rem;
+    width: 32%;
 }
 
-.formulario form input,
-textarea {
-    width: 100%;
-    max-width: 60rem;
-    min-width: 50rem;
-    padding: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+
+form label {
+    display: flex;
+    font-size: 1.5rem;
+    margin-bottom: 1.6rem;
+    font-weight: 500;
+    color: #191919;
+}
+
+.icon-contact {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: var(--bg-color);
+}
+
+form .half .item input {
     border-radius: 0.4rem;
-    outline: none;
-    border-bottom: 0.3rem solid #0ef;
-    color: white;
-    background: none;
-}
-
-.formulario form input:hover {
-    border: 0.2rem solid rgb(53, 53, 163);
-    width: 40rem;
-    transition: 0.7s ease-in-out;
-}
-.formulario form textarea:hover {
-    border: 0.2rem solid rgb(53, 53, 163);
-    width: 40rem;
-    transition: 0.7s ease-in-out;
-}
-
-.formulario form::placeholder {
-    color: #fff;
-}
-
-.formulario form a {
-    margin-bottom: 1rem;
+    border: 0.1rem solid #191919;
+    outline: 0;
+    padding: 1.3rem;
     width: 100%;
-    max-width: 70rem;
-    min-width: 50rem;
+    height: 3.5rem;
+    background: transparent;
+    font-size: 1.4rem;
+    font-weight: 300;
+    transition: 0.5s;
+}
+
+form .half .item input:hover {
+    border: 0.1rem solid var(--second-bg-color);
+    transform: none;
+}
+
+
+form .full {
+    margin-bottom: 2.4rem;
+}
+
+form .full textarea {
+    background: transparent;
     border-radius: 0.4rem;
-    background-color: royalblue;
-    border: 0.2rem solid royalblue;
-    cursor: pointer;
+    border: 0.1rem solid #191919;
+    outline: 0;
+    padding: 1rem 1rem;
+    width: 100%;
+    height: 7rem;
+    font-size: 1.4rem;
+}
+
+form .full textarea:hover {
+    border: 0.1rem solid var(--second-bg-color);
+    transform: none;
+}
+
+.action {
+    width: 100%;
     text-align: center;
-    padding: 1rem;
+    background: var(--bg-color);
+    border-radius: 0.4rem;
+    border: 0.1rem solid white;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 600;
+    height: 3.5rem;
+    letter-spacing: 0.3rem;
+    padding: 0.8rem 1.6rem;
+    outline: 0;
+    color: white;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+}
+
+.action a {
     color: white;
 }
 
-.formulario form a:hover {
-    border: 0.2rem solid royalblue;
-    color: royalblue;
-    background-color: transparent;
+.action:hover {
+    background-color: var(--second-bg-color);
+    border: 0.1rem solid var(--second-bg-color);
+    color: var(--text-color);
+    transform: scale(1);
 }
 
-.google-map {
-    width: 100%;
-    max-width: 50rem;
-    background-color: #191919;
-    height: 25rem;
+.action a:hover {
+    color: var(--text-color);
 }
+
 
 .more-info {
     padding: 3rem 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 5rem;
+
 }
 
 .card-address {
-    color: #191919;
+    color: var(--bg-color);
     box-shadow: 0rem 0rem 0rem #dedfe0, 0rem 0rem 1rem #dedfe0;
     padding: 1rem;
     text-align: center;
     border-radius: 0.5rem;
-    width: 20rem;
-    height: 15rem;
+    width: 25rem;
+    height: 17rem;
+    margin-right: 2rem;
+    transition: 0.5s;
 }
+
+
 
 .card-address .icon {
     font-size: 4rem;
-    color: royalblue;
+    color: var(--bg-color);
     padding: 1rem;
+    font-weight: 500;
+    transition: 0.5s;
 }
 
-.card-address h1 {
-    font-size: 2rem;
+.card-address .icon:hover {
+    color: white;
+}
+
+.txt h1 {
+    font-size: 1.8rem;
     margin-bottom: 1rem;
-    color: royalblue;
+    color: var(--bg-color);
 }
 
 .card-address p {
     font-size: 1.2rem;
     margin-bottom: 1rem;
+}
+.card-address:hover {
+    color: var(--text-color);
+    background-color: var(--second-bg-color);
+    .icon{
+        color: var(--text-color);
+    }
+    .txt h1{
+        color: var(--text-color);
+    }
+}
+
+@media (max-width: 90rem) {
+    .more-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 48rem) {
+
+    form {
+        margin: 0rem;
+    }
+
+    form .half {
+        flex-direction: column;
+    }
+
+    form .half .item {
+        width: 100%;
+    }
+
+    form .action {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form .action input {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .more-info {
+        margin: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+    }
+
+    .more-info .icon {
+        font-size: 2rem;
+        padding: 2rem;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .card-address {
+        margin-bottom: 2rem;
+    }
+
+    .contact h1 {
+        font-size: 2rem;
+    }
 }

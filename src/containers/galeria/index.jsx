@@ -1,10 +1,11 @@
+
+import Gallery from '../../components/gallery/gallery';
+
 function Galeria () {
 
     return (
-      <div>
-       Galeria page
-      </div>
+      <Gallery />
     )
   }
   
-  export default Galeria ;
+  export default Galeria;

@@ -1,0 +1,21 @@
+.parque-dombe{
+    padding: 15rem 3rem 5%;
+}
+.parque-dombe .text-container  {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parque-dombe .text-container h1 {
+    color: #191919;
+    font-size: 4rem;
+    text-align: center;
+   
+}
+
+.conts-texts p {
+    color: #191919;
+    text-align: center;
+    font-size: 2rem;  
+}

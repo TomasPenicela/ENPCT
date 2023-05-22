@@ -1,0 +1,87 @@
+
+
+
+.parque-maluana .text-container{
+    padding: 3rem 5%;
+    width: 100%;
+    height: 30vh;
+    background-color: #050fcc;
+    display: flex;
+    align-items: center;
+    padding-top: 15rem;
+    box-shadow: 0rem 0rem 0.5rem #dbdee6, 0rem 0rem 0.5rem #858585;
+    
+   
+    }
+
+    .parque-maluana .text-container h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 10rem;
+}
+
+
+
+
+.parque-maluana .logo img {
+    width: 15rem;
+    cursor: pointer;
+    
+}
+
+.sobre-parque{
+
+    display: flex;
+    justify-content: center;
+
+
+
+
+}
+.cont-parque{
+    padding: 0rem 5% 3rem 5%;
+}
+.cont-texts{
+    background: linear-gradient(to left, #73b9d1, #253067);
+
+    padding: 5rem 2rem 5rem 2rem;
+     border-radius: 4rem;
+}
+
+.cont-texts p{
+    color: rgb(249, 243, 243);
+    text-align: justify;
+    font-size: 2rem;  
+
+
+}
+
+.cont-imgs {
+    position: relative;
+    width: 100%;
+    height: 30rem;
+
+}
+
+.cont-imgs .img-1 {
+
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+
+}
+
+.cont-imgs h3{
+    width: 7rem;
+    height: 4.5rem;
+    background: linear-gradient(to left, #4a5350, #54899b);
+    padding: 15px;
+    position: absolute;
+    bottom: -20px;
+    left:30px;
+    color: rgb(242, 244, 247);
+
+
+}

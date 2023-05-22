@@ -1,0 +1,43 @@
+.pagination{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 5rem;
+    margin: 50px 0 50px 0;
+    gap: 10px;
+    background-color: #00000010;
+}
+
+.pagination button{
+    display: block;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    background-color: #444;
+    width: 2rem;
+    height: 2rem;
+    transition: .3s;
+} 
+
+.pagination button p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    padding: 0 2px 0 2px;
+    color: #fff;
+}
+
+.pagination .active-button,
+.pagination button:hover{
+    background-color: #111;
+    transition: .3s;
+}
+
+.pagination .pg-arrow{
+    font-size: 2rem;
+}

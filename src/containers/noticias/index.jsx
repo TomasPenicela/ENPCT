@@ -1,10 +1,13 @@
-function Noticias() {
+import Noticias from '../../components/noticias/noticias'
 
-    return (
-      <div>
-        Pagina de Noticias
-      </div>
-    )
-  }
-  
-  export default Noticias;
+function Noticias_Home() {
+
+
+  return (
+    <>
+      <Noticias />
+    </>
+  )
+}
+
+export default Noticias_Home;

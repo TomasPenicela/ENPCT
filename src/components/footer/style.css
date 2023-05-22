@@ -1,6 +1,7 @@
 footer{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 5rem 5%;
     background-color: var(--bg-color);
     box-shadow: 0rem 0rem 0.1rem #1e2b4d, 0rem 0rem 0.1rem #858585;
@@ -9,6 +10,7 @@ footer h1{
     font-size: 2rem;
     margin-bottom: 3rem;
     font-weight: 600;
+    text-align: start;
 }
 
 footer .location .local{
@@ -24,9 +26,12 @@ footer .location .local .icon:hover{
     color: #0ef;
     transition: 0.5s;
 }
-footer .location  h5{
+footer .location .local h5{
     font-size: 1.5rem;
     font-weight: 100;
+    color:white;
+    
+    
 }
 footer  ul{
     margin-bottom: 1rem;
@@ -58,12 +63,11 @@ footer .social-media p{
    
 }
 .social-media .formFooter  input{
-    font-size: 2.5rem;
-    
+    font-size: 2.4rem;
     border: none;
     text-align: center;
     width: 100%;
-    max-width: 25rem;
+    max-width: 28rem;
     border-start-start-radius: 0.7rem;
     border-end-start-radius: 0.7rem;
     
@@ -82,22 +86,25 @@ footer .social-media p{
 
 .social-media .formFooter a{
     position: absolute;
-    left: 25rem;
+    left: 26rem;
     width: 6rem;
     border: none;
-    height: 3rem;
     font-size: 1.5rem;
     background-color: #494747;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-start-start-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 .copyright{
-    background-color: rgb(28, 37, 66);
+   padding-block: 1.25rem;
+   border-top: 0.2rem dashed #cacacaa4;
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem;
+    background-color: var(--bg-color);
 }
 .copyright h1{
     font-size: 1.5rem;
